@@ -22,7 +22,7 @@ access to their insights and recommendations.
 CoinCraft is an innovative personal finance application designed to help users track spending habits, set financial goals, and receive personalized financial advice. Utilizing advanced AI technologies, CoinCraft simplifies complex financial information, making it accessible and engaging for everyone.
 
 
-![Architecture Diagram](https://drive.google.com/file/d/1s3lBGShN4rElXEeyi8EmBGHlEjdfA0jX/view?usp=sharing)
+![Architecture Diagram](https://github.com/manasdp/Coincraft/blob/main/Additional/AdaCitiBank%20(2).jpg)
 
 ## Problem 1: Data Analysis and Querying Using LangChain & OpenAI
 
