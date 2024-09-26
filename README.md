@@ -4,9 +4,9 @@
 CoinCraft is an innovative personal finance application designed to help users track spending habits, set financial goals, and receive personalized financial advice. Utilizing advanced AI technologies, CoinCraft simplifies complex financial information, making it accessible and engaging for everyone.
 
 **Key Features**
- •	Real-Time Financial Recommendations: Users can input queries, and our system provides tailored financial insights based on unique spending patterns.
- •	Risk Profiling & Portfolio Optimization: Analyze user portfolios and provide personalized investment recommendations using sentiment analysis.
- •	Personalized Financial Literacy: Engage users with dynamic content, quizzes, and gamification elements to enhance learning about finances.
+ •	* Real-Time Financial Recommendations: Users can input queries, and our system provides tailored financial insights based on unique spending patterns.
+ •	* Risk Profiling & Portfolio Optimization: Analyze user portfolios and provide personalized investment recommendations using sentiment analysis.
+ •	* Personalized Financial Literacy: Engage users with dynamic content, quizzes, and gamification elements to enhance learning about finances.
 
 **Unique Value Proposition**
 •	Ease of Use: Simplifies spending tracking and goal setting with intuitive graphs and charts.
