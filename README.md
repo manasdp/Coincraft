@@ -26,16 +26,13 @@ CoinCraft is an innovative personal finance application designed to help users t
 
 **Installation**
 1.	Clone the repository:
-**bash**
 **git clone https://github.com/yourusername/CoinCraft.git**
 **cd CoinCraft**
 2.	Install dependencies:
-**bash**
 **npm install**
 3.	Set up Azure Functions and database:
 o	Follow the Azure documentation to configure your cloud environment.
 4.	Run the application:
-**bash**
 **npm start**
 
 **Usage**
