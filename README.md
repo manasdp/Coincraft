@@ -63,7 +63,10 @@ CoinCraft is an innovative personal finance application designed to help users t
 - **LLM (Large Language Model):** The relevant document chunks are passed to an LLM (like GPT), which generates a detailed and coherent answer for the user's question based on the retrieved information.
 
 - ## Video Demonstration
-Watch our video  on YouTube: [CoinCraft Overview](https://www.youtube.com/watch?v=jZxVpGvL6Dw)
+<video width="640" height="480" controls>
+  <source src="https://youtu.be/jZxVpGvL6Dw" type="video/mp4"> 
+  Your browser does not support the video tag.
+</video>
 
 **Key Features**
 * Real-Time Financial Recommendations: Users can input queries, and our system provides tailored financial insights based on unique spending patterns.
