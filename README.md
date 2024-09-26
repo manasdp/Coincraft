@@ -21,6 +21,47 @@ access to their insights and recommendations.
 **Overview**
 CoinCraft is an innovative personal finance application designed to help users track spending habits, set financial goals, and receive personalized financial advice. Utilizing advanced AI technologies, CoinCraft simplifies complex financial information, making it accessible and engaging for everyone.
 
+
+![Architecture Diagram]([https://example.com/path/to/architecture-diagram.png](https://drive.google.com/file/d/1s3lBGShN4rElXEeyi8EmBGHlEjdfA0jX/view?usp=sharing))
+
+## Problem 1: Data Analysis and Querying Using LangChain & OpenAI
+
+- **User Interaction:** The user interacts with the system through a dashboard interface, providing input data and querying the system.
+
+- **Database Schema & Relevant Files:** The system connects to a database where various types of user data are stored, such as:
+  - User Information (basic profile information)
+  - Account Information (bank account details, balances, transactions)
+  - Loan Account Information (loan details, EMIs)
+  - Investment Information (stocks, mutual funds, bonds)
+  - Insurance Information (insurance policies, coverage)
+  - Income Tax Statements (tax-related records)
+
+- **Retrieving Information:** The system uses LangChain, an advanced AI framework that integrates Large Language Models (LLMs) (such as OpenAI's GPT) to query and retrieve relevant information from the database.
+
+- **Query Relevant Information:** LangChain processes the user’s query to extract relevant data from the database by analyzing structured or unstructured data.
+
+- **Access Control:** There is a Role-Based Access Control (RBAC) system in place that ensures only authorized users can view or access specific data. This is crucial for maintaining data security.
+
+## Problem 2: Background Check for Stocks/Mutual Funds Using AI
+
+- **External Data Integration:** This involves fetching real-time data from external sources such as News APIs.
+- **Fetching News Articles:** Automated systems pull financial news from different sources.
+- **Validation:** This process ensures that the fetched articles are accurate, complete, and free from errors before further analysis.
+- **LangChain:** Once the external data is fetched, LangChain processes it and provides an intelligent layer to analyze the information using predefined AI models.
+- **Financial Ratio Analysis:** The system can compute and analyze various financial ratios (e.g., P/E ratio, debt-to-equity ratio) to assess the financial health of a company or mutual fund.
+- **Company Reputation:** It checks and verifies the reputation of companies, considering both historical data and recent market trends from the news.
+- **Market Sentiment Analysis:** This involves using Natural Language Processing (NLP) models to determine the market sentiment (positive, negative, neutral) based on the news articles.
+- **Risk Analysis:** Based on the data and AI outputs, it determines whether the stock/mutual fund is low-risk or high-risk for investment.
+
+## Problem 3: Document-Based Querying Using an AI Model
+
+- **Input Document:** A document, such as "RBI Kahahta Hai!" (Official or public policy document), is provided as input to the system.
+- **Splitting the Text:** The document is split into smaller, manageable text chunks. This is essential for processing long documents efficiently.
+- **Encoder Model:** The text chunks are passed through an encoder model, which is an AI model used to convert text into numerical formats called embeddings. These embeddings are stored in a database for further retrieval.
+- **User Questions:** Users can ask questions related to the document. These questions are processed and converted into embeddings using the same encoder model.
+- **Similarity Search:** The system compares the embedding of the question to the embeddings of the document's text chunks using similarity search. This identifies the most relevant parts of the document that could answer the user's question.
+- **LLM (Large Language Model):** The relevant document chunks are passed to an LLM (like GPT), which generates a detailed and coherent answer for the user's question based on the retrieved information.
+- 
 **Key Features**
 * Real-Time Financial Recommendations: Users can input queries, and our system provides tailored financial insights based on unique spending patterns.
 * Risk Profiling & Portfolio Optimization: Analyze user portfolios and provide personalized investment recommendations using sentiment analysis.
