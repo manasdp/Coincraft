@@ -27,7 +27,6 @@ CoinCraft is an innovative personal finance application designed to help users t
 **Installation**
 1.	Clone the repository:
 **git clone https://github.com/yourusername/CoinCraft.git**
-*
 **cd CoinCraft**
 3.	Install dependencies:
 **npm install**
