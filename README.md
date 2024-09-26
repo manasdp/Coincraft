@@ -1,7 +1,7 @@
 ## CoinCraft
 
-**Problem Statement**
-*In today's fast-paced financial landscape, customers face challenges in managing their finances effectively. Many 
+**Problem Statement**-
+In today's fast-paced financial landscape, customers face challenges in managing their finances effectively. Many 
 struggles with understanding their spending habits, optimizing savings, and making informed investment decisions. 
 Traditional banking interfaces often lack personalized insights and actionable advice, leaving customers feeling 
 disconnected and overwhelmed. 
