@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.GoalsController" spacing="10" alignment="CENTER" padding="20">
+    <Label text="Set Financial Goals" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    <TextField fx:id="goalInput" promptText="Enter your financial goal..." />
+    <Button text="Add Goal" onAction="#handleAddGoal"/>
+    <ListView fx:id="goalsList" />
+</VBox>

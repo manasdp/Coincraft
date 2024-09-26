@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.MainController">
+    <top>
+        <Label text="Personal Finance Tracker" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    </top>
+    <center>
+        <VBox spacing="10" alignment="CENTER" padding="20">
+            <TextField fx:id="userInput" promptText="Enter your financial query..." />
+            <Button text="Submit" onAction="#handleSubmit"/>
+            <TextArea fx:id="recommendationOutput" wrapText="true" editable="false" promptText="Recommendations will appear here..." />
+        </VBox>
+    </center>
+</BorderPane>
