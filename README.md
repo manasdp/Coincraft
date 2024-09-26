@@ -22,7 +22,7 @@ access to their insights and recommendations.
 CoinCraft is an innovative personal finance application designed to help users track spending habits, set financial goals, and receive personalized financial advice. Utilizing advanced AI technologies, CoinCraft simplifies complex financial information, making it accessible and engaging for everyone.
 
 
-![Architecture Diagram]([https://example.com/path/to/architecture-diagram.png](https://drive.google.com/file/d/1s3lBGShN4rElXEeyi8EmBGHlEjdfA0jX/view?usp=sharing))
+![Architecture Diagram](https://drive.google.com/file/d/1s3lBGShN4rElXEeyi8EmBGHlEjdfA0jX/view?usp=sharing)
 
 ## Problem 1: Data Analysis and Querying Using LangChain & OpenAI
 
@@ -61,7 +61,10 @@ CoinCraft is an innovative personal finance application designed to help users t
 - **User Questions:** Users can ask questions related to the document. These questions are processed and converted into embeddings using the same encoder model.
 - **Similarity Search:** The system compares the embedding of the question to the embeddings of the document's text chunks using similarity search. This identifies the most relevant parts of the document that could answer the user's question.
 - **LLM (Large Language Model):** The relevant document chunks are passed to an LLM (like GPT), which generates a detailed and coherent answer for the user's question based on the retrieved information.
-- 
+
+- ## Video Demonstration
+Watch our video  on YouTube: [CoinCraft Overview](https://www.youtube.com/watch?v=jZxVpGvL6Dw)
+
 **Key Features**
 * Real-Time Financial Recommendations: Users can input queries, and our system provides tailored financial insights based on unique spending patterns.
 * Risk Profiling & Portfolio Optimization: Analyze user portfolios and provide personalized investment recommendations using sentiment analysis.
