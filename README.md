@@ -87,3 +87,52 @@ Watch our video  on YouTube: [CoinCraft Overview](https://www.youtube.com/watch?
 * User Growth Rate: Rate of new user sign-ups.
 * Churn Rate: Percentage of users discontinuing service.
 
+Scalability and Ease of Deployment
+Scalability:
+
+**Adaptive Architecture**
+Our solution is built on a microservices architecture that allows individual components to scale independently. This design ensures that as user demand increases, specific services can be enhanced without requiring a complete overhaul of the system.
+Elastic Resource Management: We leverage cloud-based infrastructure to provide elastic resource management. This enables automatic scaling of resources based on real-time demand, ensuring optimal performance during peak times while minimizing costs during off-peak periods.
+Support for High User Volume: The system is designed to handle a high volume of concurrent users seamlessly. This capability is crucial for banking applications, where user activity can fluctuate significantly.
+Future-Proofing: As the financial landscape evolves, our scalable solution can accommodate new features and functionalities. This adaptability ensures that we can integrate emerging technologies and respond to changing user needs without extensive redesigns.
+Ease of Deployment:
+
+**Simplified Deployment Process**
+Our deployment process is streamlined and efficient, enabling quick setup in various environments, including development, testing, and production. This simplicity reduces the time from development to launch.
+Continuous Integration and Continuous Deployment (CI/CD): We implement CI/CD practices to automate testing and deployment. This approach not only speeds up the release cycle but also ensures that updates are consistently delivered without disruption to users.
+Containerization: By utilizing containerization technologies like Docker, we ensure that our application can be deployed consistently across different environments. This technology eliminates environment-specific issues and enhances reliability.
+Comprehensive Documentation: We provide thorough documentation and user guides for deployment, making it easy for teams to set up and configure the application according to their specific requirements.
+Minimal Downtime: Our deployment strategy focuses on minimizing downtime during updates or changes, ensuring that users can continue to access services without interruption.
+
+
+### References for Problem 1
+- Medium article on financial sentiment analysis with LangChain and OpenAI: [Financial Sentiment Analysis with LangChain and OpenAI](https://medium.com/@fl.brienza/financial-sentiment-analysis-with-langchain-and-openai-4a0c3c1cd0e4)
+- Webinar on John Snow Labs' integrations with LangChain and HayStack for enhanced retrieval augmented generation: [John Snow Labs Webinar](https://www.johnsnowlabs.com/webinars/)  
+  Note: The exact link for the webinar might change, so you may need to navigate through John Snow Labs' website to find the most recent relevant webinar.
+
+## Problem 2: Background Check for Stocks/Mutual Funds Using AI
+
+- **External Data Integration:** This involves fetching real-time data from external sources such as News APIs.
+- **Fetching News Articles:** Automated systems pull financial news from different sources.
+- **Validation:** This process ensures that the fetched articles are accurate, complete, and free from errors before further analysis.
+- **LangChain:** Once the external data is fetched, LangChain processes it and provides an intelligent layer to analyze the information using predefined AI models.
+- **Financial Ratio Analysis:** The system can compute and analyze various financial ratios (e.g., P/E ratio, debt-to-equity ratio) to assess the financial health of a company or mutual fund.
+- **Company Reputation:** It checks and verifies the reputation of companies, considering both historical data and recent market trends from the news.
+- **Market Sentiment Analysis:** This involves using Natural Language Processing (NLP) models to determine the market sentiment (positive, negative, neutral) based on the news articles.
+- **Risk Analysis:** Based on the data and AI outputs, it determines whether the stock/mutual fund is low-risk or high-risk for investment.
+
+### References for Problem 2
+- Fast Data Science blog on LLM and NLP applications: [Building an AI Financial Analyst Using LangChain, OpenAI Function Calling, and Streamlit](https://fsndzomga.medium.com/building-an-ai-financial-analyst-using-langchain-openai-function-calling-and-streamlit-part-1-1c910cf57f92)
+
+## Problem 3: Document-Based Querying Using an AI Model
+
+- **Input Document:** A document, such as "RBI Kahahta Hai!" (Official or public policy document), is provided as input to the system.
+- **Splitting the Text:** The document is split into smaller, manageable text chunks. This is essential for processing long documents efficiently.
+- **Encoder Model:** The text chunks are passed through an encoder model, which is an AI model used to convert text into numerical formats called embeddings. These embeddings are stored in a database for further retrieval.
+- **User Questions:** Users can ask questions related to the document. These questions are processed and converted into embeddings using the same encoder model.
+- **Similarity Search:** The system compares the embedding of the question to the embeddings of the document's text chunks using similarity search. This identifies the most relevant parts of the document that could answer the user's question.
+- **LLM (Large Language Model):** The relevant document chunks are passed to an LLM (like GPT), which generates a detailed and coherent answer for the user's question based on the retrieved information.
+
+### References for Problem 3
+- Webinar on John Snow Labs' integrations with LangChain and HayStack for enhanced RAG pipelines: [John Snow Labs Webinar](https://www.johnsnowlabs.com/webinars/)
+
